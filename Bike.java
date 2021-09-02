@@ -19,9 +19,12 @@ public class Bike {
         System.out.println( this.marca + " andar " );
     }
 
-    public void freiar()
+    public void frear()
     {
         if(qtdMarchas>1) qtdMarchas-1;
-        System.out.println( this.marca + " freiar " );
+        System.out.println( this.marca + " frear " );
     }
 }
+
+
+
